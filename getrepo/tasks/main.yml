@@ -1,0 +1,5 @@
+---
+- name: Clone mcap-deployment-files repository
+  ansible.builtin.git:
+    repo: https://github.com/RedHatQuickCourses/mcap-deployment-files.git
+    dest: /root/mcap-deployment-files/
